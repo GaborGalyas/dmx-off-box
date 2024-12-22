@@ -8,3 +8,5 @@ By the time I get on stage to pack up, they are ready to be put away.
 It supports RDM for addressing, and selecting modes which are 1ch Normally Open, 1ch Normally Closed and 2ch Set/Reset mode.
 
 Software is a bit of a remake of my other product, so the code is messy and has other experimental stuff too. Feel free to clean up.
+I included the DmxSerial2 library as it has some changes for my other product that uses DIP switches for addressing aswell.
+The switching point can be set with modifying the parameter LAMP HOURS with an rdm manager tool, or by changing the values in the code.
